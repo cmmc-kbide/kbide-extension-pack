@@ -8,7 +8,7 @@ module.exports = {
   git: "https://github.com/cmmc-kbide/kbide-extension-pack/",
   image: "/static/extension.jpg",
   version: "1.0.0",
-  component: [
+  components: [
     "serial-monitor",
     "actionbar-serial"
   ],
