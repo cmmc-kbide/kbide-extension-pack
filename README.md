@@ -1,4 +1,4 @@
-# kbide-serial-monitor
+# kbide-extension-pack
 
 ## Project setup
 ```
