@@ -43333,12 +43333,12 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4408a927-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!D:/KBIDEV6/node_modules/vuetify-loader/lib/loader.js!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ActionbarSerial.vue?vue&type=template&id=1f11b362&
-var ActionbarSerialvue_type_template_id_1f11b362_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-tooltip',{attrs:{"bottom":""}},[_c('v-btn',{attrs:{"slot":"activator","color":"primary darken-2","icon":""},nativeOn:{"click":function($event){return _vm.$global.ui.addBottomTab('serial-monitor','Serial Monitor','SerialMonitor')}},slot:"activator"},[_c('v-icon',{attrs:{"dark":""}},[_vm._v("fa-terminal")])],1),_c('span',[_vm._v("Serial Monitor")])],1)}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4408a927-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!D:/KBIDEV6/node_modules/vuetify-loader/lib/loader.js!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ActionbarSerial.vue?vue&type=template&id=68df40ae&
+var ActionbarSerialvue_type_template_id_68df40ae_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-tooltip',{attrs:{"bottom":""}},[_c('v-btn',{attrs:{"slot":"activator","color":"primary darken-2","icon":""},nativeOn:{"click":function($event){return _vm.$global.ui.addBottomTab('serial-monitor','Serial Monitor','SerialMonitor')}},slot:"activator"},[_c('v-icon',{attrs:{"dark":""}},[_vm._v("fa-terminal")])],1),_c('span',[_vm._v("Serial Monitor")])],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/ActionbarSerial.vue?vue&type=template&id=1f11b362&
+// CONCATENATED MODULE: ./src/components/ActionbarSerial.vue?vue&type=template&id=68df40ae&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!D:/KBIDEV6/node_modules/vuetify-loader/lib/loader.js!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ActionbarSerial.vue?vue&type=script&lang=js&
 //
@@ -45739,7 +45739,7 @@ function VTooltip_defineProperty(obj, key, value) { if (key in obj) { Object.def
 
 var component = normalizeComponent(
   components_ActionbarSerialvue_type_script_lang_js_,
-  ActionbarSerialvue_type_template_id_1f11b362_render,
+  ActionbarSerialvue_type_template_id_68df40ae_render,
   staticRenderFns,
   false,
   null,
@@ -53117,10 +53117,18 @@ installComponents_default()(SerialMonitor_component, {VAvatar: VAvatar,VBtn: VBt
 
 /* harmony default export */ var lib = ({
   install: function install(Vue, options) {
-    // register all components globally
     for (var componentName in components_namespaceObject) {
       Vue.component(componentName, components_namespaceObject[componentName]);
     }
+
+    Vue.prototype.$global.$on("menu-serial-monitor", function () {
+      console.log("open-serial-monitor");
+      Vue.prototype.$global.ui.addBottomTab('serial-monitor', 'Serial Monitor', 'SerialMonitor');
+    });
+    Vue.prototype.$global.$on("menu-compile-logs", function () {
+      console.log("open-compile-logs");
+      Vue.prototype.$global.ui.addBottomTab('compile-logs', 'Compile Logs', 'CompileLogs');
+    });
   }
 });
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js

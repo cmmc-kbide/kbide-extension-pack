@@ -7,10 +7,24 @@ module.exports = {
   website: "https://kbide.org",
   git: "https://github.com/cmmc-kbide/kbide-extension-pack/",
   image: "/static/extension.jpg",
-  version: "1.0.0",
+  version: "1.0.1",
+  menu : [
+    {
+      main : "Tools",
+      label : "Compile Log",
+      accelerator : "CmdOrCtrl+Shift+C",
+      event_emit : "menu-compile-logs"
+    },{
+      main : "Tools",
+      label: "Serial Monitor",
+      accelerator: "CmdOrCtrl+Shift+M",
+      event_emit: "menu-serial-monitor"
+    }
+  ],
   components: [
     "serial-monitor",
-    "actionbar-serial"
+    "actionbar-serial",
+    "compile-logs"
   ],
   dependencies : [],
   data: {
