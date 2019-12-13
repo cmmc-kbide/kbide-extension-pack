@@ -1440,6 +1440,13 @@ module.exports = function (R, S) {
 
 /***/ }),
 
+/***/ "1569":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "1696":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10862,6 +10869,17 @@ module.exports = function (argument) {
 
 })));
 
+
+/***/ }),
+
+/***/ "7c02":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_vuetify_loader_lib_loader_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CompileLogs_vue_vue_type_style_index_0_id_0c82289a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("1569");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_vuetify_loader_lib_loader_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CompileLogs_vue_vue_type_style_index_0_id_0c82289a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_vuetify_loader_lib_loader_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CompileLogs_vue_vue_type_style_index_0_id_0c82289a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_vuetify_loader_lib_loader_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CompileLogs_vue_vue_type_style_index_0_id_0c82289a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -43315,6 +43333,7 @@ var components_namespaceObject = {};
 __webpack_require__.r(components_namespaceObject);
 __webpack_require__.d(components_namespaceObject, "ActionbarSerial", function() { return ActionbarSerial; });
 __webpack_require__.d(components_namespaceObject, "SerialMonitor", function() { return SerialMonitor; });
+__webpack_require__.d(components_namespaceObject, "CompileLogs", function() { return CompileLogs; });
 
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/setPublicPath.js
 // This file is imported into lib/wc client bundles.
@@ -53110,7 +53129,108 @@ var SerialMonitor_component = normalizeComponent(
 
 installComponents_default()(SerialMonitor_component, {VAvatar: VAvatar,VBtn: VBtn,VBtnToggle: VBtnToggle,VCard: VCard,VChip: VChip,VCombobox: VCombobox,VContainer: VContainer,VDivider: VDivider,VFlex: VFlex,VIcon: VIcon_VIcon,VLayout: VLayout,VMenu: VMenu,VSlider: VSlider,VSpeedDial: VSpeedDial,VSubheader: VSubheader,VSwitch: VSwitch,VTextField: wrapper,VTooltip: VTooltip})
 
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4408a927-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!D:/KBIDEV6/node_modules/vuetify-loader/lib/loader.js!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/CompileLogs.vue?vue&type=template&id=0c82289a&scoped=true&class=absolute&
+var CompileLogsvue_type_template_id_0c82289a_scoped_true_class_absolute_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-flex',{staticClass:"pa-0 dark monitor-console",staticStyle:{"display":"flex","width":"100%","flex-direction":"column"},attrs:{"xs12":""}},[_c('v-flex',{staticStyle:{"display":"flex","flex":"1 1 auto","flex-basis":"100%"}},[_c('v-card',{staticStyle:{"font-size":"13px","overflow-y":"scroll","width":"100%"},attrs:{"dark":""}},[_c('ol',{ref:"monitor",staticClass:"monitor-line"},_vm._l((_vm.logs),function(line,inx){return _c('li',{key:inx,staticClass:"serial-line",style:([line.includes('Compile Error') ? {'color':'orangered'} : {}])},[_vm._v(" "+_vm._s(line)+" ")])}),0)])],1)],1)}
+var CompileLogsvue_type_template_id_0c82289a_scoped_true_class_absolute_staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/CompileLogs.vue?vue&type=template&id=0c82289a&scoped=true&class=absolute&
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!D:/KBIDEV6/node_modules/vuetify-loader/lib/loader.js!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/CompileLogs.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//const electron = require("electron");
+var myself;
+/* harmony default export */ var CompileLogsvue_type_script_lang_js_ = ({
+  name: "CompileLogs",
+  data: function data() {
+    return {
+      logs: [],
+      auto_scroll: true
+    };
+  },
+  created: function created() {
+    myself = this;
+  },
+  mounted: function mounted() {
+    var _this = this;
+
+    this.$global.$on("compile-log", function (msg) {
+      _this.add_data(msg);
+    });
+    this.$global.$on("compile-begin", function (_) {
+      _this.clear_data();
+    });
+    this.$global.$on("upload-success", function (_) {
+      _this.logs.push("===>>> Upload Success <<<===");
+    });
+  },
+  methods: {
+    clear_data: function clear_data() {
+      this.logs = [];
+    },
+    add_data: function add_data(line) {
+      this.logs.push(line);
+
+      if (this.auto_scroll) {
+        var m = this.$refs.monitor;
+
+        if (m) {
+          this.$nextTick(function (_) {
+            m.scrollIntoView(false); // = m.scrollHeight;
+          });
+        }
+      }
+    }
+  }
+});
+// CONCATENATED MODULE: ./src/components/CompileLogs.vue?vue&type=script&lang=js&
+ /* harmony default export */ var components_CompileLogsvue_type_script_lang_js_ = (CompileLogsvue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./src/components/CompileLogs.vue?vue&type=style&index=0&id=0c82289a&scoped=true&lang=css&
+var CompileLogsvue_type_style_index_0_id_0c82289a_scoped_true_lang_css_ = __webpack_require__("7c02");
+
+// CONCATENATED MODULE: ./src/components/CompileLogs.vue
+
+
+
+
+
+
+/* normalize component */
+
+var CompileLogs_component = normalizeComponent(
+  components_CompileLogsvue_type_script_lang_js_,
+  CompileLogsvue_type_template_id_0c82289a_scoped_true_class_absolute_render,
+  CompileLogsvue_type_template_id_0c82289a_scoped_true_class_absolute_staticRenderFns,
+  false,
+  null,
+  "0c82289a",
+  null
+  
+)
+
+/* harmony default export */ var CompileLogs = (CompileLogs_component.exports);
+
+/* vuetify-loader */
+
+
+
+installComponents_default()(CompileLogs_component, {VCard: VCard,VFlex: VFlex})
+
 // CONCATENATED MODULE: ./src/components/index.js
+
 
 
 // CONCATENATED MODULE: ./src/lib.js
